@@ -1,18 +1,7 @@
 var SolarSystem = (function(){
-	var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
 	var dwarfPlanets = ["pluto"];
-	var numPlanetsPeopleLandedOn = 0;
 
 	return {
-		getPlanets : function(){
-			return planets;
-		},
-		getPlanetsLandedPeopleOn : function(){			/* gets retrieve something */
-			return	numPlanetsPeopleLandedOn;
-		},
-		setPlanetsLandedPeopleOn : function(){			/* sets do something */
-			numPlanetsPeopleLandedOn++;
-		},
 		getDwarfPlanets : function(){
 			return "they are rejects";
 		},
